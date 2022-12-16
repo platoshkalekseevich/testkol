@@ -21,7 +21,7 @@ int main() {
                         dp[j] = value;
                     else
                         dp[j] = value + std::max(dp[j], dp[j - 1]);
-                }
+                } 
             }
         }
         std::cout << dp[n - 1];
