@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main() {
-    int m, n;
+    int m, p;
     std::cin >> n >> m;
     if (n == 0 || m == 0)
         std::cout << 0;
