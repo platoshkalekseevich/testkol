@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main() {
-    int m, p;
+    int m, n;
     std::cin >> n >> m;
     if (n == 0 || m == 0)
         std::cout << 0;
@@ -24,7 +24,7 @@ int main() {
                 }
             }
         }
-        std::cout << dp[n-1];
+        std::cout << dp[n - 1];
     }
     return 0;
 }
